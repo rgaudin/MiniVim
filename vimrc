@@ -5,7 +5,7 @@ let UseCustomKeyBindings = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """ General options
-start " Start in Insertion mode
+" start " Start in Insertion mode
 syntax enable " Enable syntax highlights
 set ttyfast " Faster refraw
 set mouse=nv " Mouse activated in Normal and Visual Mode
@@ -39,6 +39,7 @@ set encoding=utf-8  " The encoding displayed.
 set fileencoding=utf-8  " The encoding written to file.
 set synmaxcol=300 " Don't try to highlight long lines
 set guioptions-=T " Don't show toolbar in Gvim
+set paste " keep indentation when pasting
 " Open all cmd args in new tabs
 execute ":silent :tab all" 
 
